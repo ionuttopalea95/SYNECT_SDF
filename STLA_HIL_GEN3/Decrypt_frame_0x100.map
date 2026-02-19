@@ -1,0 +1,928 @@
+<*GNU-Linker-generated-mapfile*> 
+generated for DSx86_32 platform 
+collect2 version 5.2.0
+C:/ProgramData/dSPACE/071346ea-bffa-4465-9551-2e48edf35320/Compiler/QNX650_520/host/win32/x86/usr/bin/i486-pc-nto-qnx6.5.0-ld.exe -plugin c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\INCA\AppData\Local\Temp\cc7jsvTh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/opt/qnx650/target/qnx6/ --eh-frame-hdr --build-id=md5 -Y P,/opt/qnx650/target/qnx6//lib -Qy -m i386nto --dynamic-linker /usr/lib/ldqnx.so.2 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crti.o c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o -Lc:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0 -Lc:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/gcc/5.2.0 -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/usr/lib -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/opt/lib -rpath-link C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/gcc/5.2.0:C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib:C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/usr/lib:C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/opt/lib -v --unresolved-symbols=ignore-all -lstdc++ -lm -lgcc -lc -Bstatic -lc -lgcc c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crtn.o
+GNU ld (GNU Binutils) 2.25.1
+Archive member included to satisfy reference by file (symbol)
+
+Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrtmdlfcn.lo86)
+                              dssimengine_accesspoint.o86 (Decrypt_frame_0x100_DSRTInitMdl)
+Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrttf.lo86)
+                              rtosal_task.o86 (Decrypt_frame_0x100_DSRTMdlOutputs0)
+Decrypt_frame_0x100.a(Decrypt_frame_0x100.lo86)
+                              Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrttf.lo86) (Decrypt_frame_0x100_output)
+Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrtvdf.lo86)
+                              Decrypt_frame_0x100.a(Decrypt_frame_0x100.lo86) (Decrypt_frame_0x100_rti_init_trc_pointers)
+C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib\libm_fastpow.a(w_pow.o)
+                              C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib/libDsRtLib.so (pow)
+C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib\libm_fastpow.a(e_pow.o)
+                              C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib\libm_fastpow.a(w_pow.o) (__ieee754_pow)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libDsRealTimeTestingRP.so.1   rtosal_simengineap.o86 (dsrtt_mp_register_config)
+
+Discarded input sections
+
+ __x86.get_pc_thunk.dx
+                0x0000000000000000        0x8 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o
+ __x86.get_pc_thunk.bx
+                0x0000000000000000        0x8 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o
+ .group         0x0000000000000000        0x8 dssimengine_main.o86
+ .group         0x0000000000000000        0x8 dssimengine_main.o86
+ .group         0x0000000000000000        0x8 dssimengine_main.o86
+ .group         0x0000000000000000        0x8 rtosal_task.o86
+ .group         0x0000000000000000        0x8 rtosal_task.o86
+ .group         0x0000000000000000        0x8 rtosal_task.o86
+ __x86.get_pc_thunk.dx
+                0x0000000000000000        0x8 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000000000        0x4 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+LOAD C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crti.o
+LOAD c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o
+                0x0000000000000000                _DSPACE_START = 0x0
+                0x0000000000000000                _DSPACE_START_ = 0x0
+                0x00000000000009ce                DS_TARGET_PLATFORM = 0x9ce
+START GROUP
+LOAD mdladapter_mdlfunctions.o86
+LOAD mdlCode_ap.o86
+LOAD dssimengine_accesspoint.o86
+LOAD dssimengine_api.o86
+LOAD dssimengine_main.o86
+LOAD rtosal_task.o86
+LOAD rtosal_taskap.o86
+LOAD rtosal_simengineap.o86
+LOAD IOCode_Data.o86
+LOAD mdlcfg_interapplcom.o86
+LOAD rtosal_interapplcom.o86
+LOAD Decrypt_frame_0x100.a
+LOAD C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib/libdsmpcommdrv.so
+LOAD C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib/libdscandrv.so
+LOAD C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib/libdslindrv.so
+END GROUP
+LOAD C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib/libDsRtLib.so
+LOAD C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib\libm_fastpow.a
+LOAD C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/gcc/5.2.0/libstdc++.so
+LOAD C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/libm.so
+LOAD c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0\libgcc.a
+LOAD C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/libc.so
+LOAD C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib\libc.a
+LOAD c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0\libgcc.a
+LOAD c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o
+LOAD C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crtn.o
+                [!provide]                        PROVIDE (__executable_start, 0x8048000)
+                0x0000000008048134                . = (0x8048000 + SIZEOF_HEADERS)
+
+.interp         0x0000000008048134       0x14
+ *(.interp)
+ .interp        0x0000000008048134       0x14 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+
+.note           0x0000000008048148       0x18
+ .note          0x0000000008048148       0x18 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crtn.o
+
+.note.gnu.build-id
+                0x0000000008048160       0x20
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000008048160       0x20 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+
+.hash           0x0000000008048180      0x228
+ *(.hash)
+ .hash          0x0000000008048180      0x228 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000000080483a8      0x450
+ *(.dynsym)
+ .dynsym        0x00000000080483a8      0x450 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+
+.dynstr         0x00000000080487f8      0x83b
+ *(.dynstr)
+ .dynstr        0x00000000080487f8      0x83b C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+
+.gnu.version    0x0000000008049034        0x0
+ *(.gnu.version)
+ .gnu.version   0x0000000008049034        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+
+.gnu.version_d  0x0000000008049034        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000008049034        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+
+.gnu.version_r  0x0000000008049034        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000008049034        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+
+.rel.dyn        0x0000000008049034       0x50
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000008049034        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+ .rel.text.startup
+                0x0000000008049034        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ .rel.rodata._ZTI18DsCApplicationMain
+                0x0000000008049034        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+ .rel.rodata._ZTV18DsCApplicationMain
+                0x0000000008049034        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+ .rel.rodata._ZTI24DsCRtosAlPeriodic_Task_3
+                0x0000000008049034        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+ .rel.rodata._ZTV24DsCRtosAlPeriodic_Task_3
+                0x0000000008049034        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000008049034       0x30 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x0000000008049064       0x20 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+                [!provide]                        PROVIDE (__rel_iplt_start, .)
+ *(.rel.iplt)
+ .rel.iplt      0x0000000008049084        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+                [!provide]                        PROVIDE (__rel_iplt_end, .)
+ .rel.eh_frame  0x0000000008049084        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+
+.rel.plt        0x0000000008049084      0x1b0
+ *(.rel.plt)
+ .rel.plt       0x0000000008049084      0x1b0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+
+.init           0x0000000008049234        0xd
+ *(SORT(.init))
+ .init          0x0000000008049234        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crti.o
+                0x0000000008049234                _init
+ .init          0x0000000008049234        0x5 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o
+ .init          0x0000000008049239        0x5 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o
+ .init          0x000000000804923e        0x3 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crtn.o
+
+.plt            0x0000000008049250      0x370
+ *(.plt)
+ .plt           0x0000000008049250      0x370 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+                0x0000000008049260                _ZN7DsCTask10daqServiceEj
+                0x0000000008049270                __register_frame_info
+                0x0000000008049280                _Z18dsrtt_set_rtt_taskP7DsCTask
+                0x0000000008049290                _ZN14DsCApplication15createErrorListEv
+                0x00000000080492a0                _Znaj
+                0x00000000080492b0                _ZN7DsCTask11bindTriggerER16DsCErrorListPoolP8DsCTimer
+                0x00000000080492c0                memcpy
+                0x00000000080492d0                _ZN14DsCApplicationC2ER16DsCErrorListPool
+                0x00000000080492e0                dsrtt_mp_register_config
+                0x00000000080492f0                _ZN12DsCFcnModule12updateInputsEv
+                0x0000000008049300                _ZN7DsCTaskC2ER16DsCErrorListPoolP14DsCApplicationPKcjjjjjjjPS_j
+                0x0000000008049310                __wrap_printf
+                0x0000000008049320                __cxa_finalize
+                0x0000000008049330                _ZN14DsCApplicationD2Ev
+                0x0000000008049340                _ZdlPv
+                0x0000000008049350                _init_array
+                0x0000000008049360                _ZN12DsCFcnModule13updateOutputsEv
+                0x0000000008049370                _ZN23DsNApplicationInterface16registerResourceEPKcPv
+                0x0000000008049380                _ZN23DsNApplicationInterface12registerApplEPv
+                0x0000000008049390                dsrtt_script_service_post_computation
+                0x00000000080493a0                _ZN11DsCMpSender4sendEv
+                0x00000000080493b0                snprintf
+                0x00000000080493c0                atexit
+                0x00000000080493d0                _ZN7DsCTask14getCallCounterEv
+                0x00000000080493e0                __gxx_personality_v0
+                0x00000000080493f0                _Unwind_Resume
+                0x0000000008049400                _ZN7DsCTask18setSimTimeVariableEPd
+                0x0000000008049410                _init_libc
+                0x0000000008049420                _ZN14DsCApplication12setSlowStartER16DsCErrorListPooldd
+                0x0000000008049430                _ZN14DsCApplication4stopEv
+                0x0000000008049440                _ZN7DsCTaskD2Ev
+                0x0000000008049450                _ZN13DsCMpReceiver6createER16DsCErrorListPoolP14DsCApplicationPKcjjjj
+                0x0000000008049460                _ZN7DsCTask17getOverrunCounterEv
+                0x0000000008049470                dsrtt_script_service_pre_computation
+                0x0000000008049480                _ZN7DsCTask28setDeadlineViolationFunctionER16DsCErrorListPoolPFvS1_PS_E
+                0x0000000008049490                _ZN11DsCMpSender9getBufferEv
+                0x00000000080494a0                __wrap_exit
+                0x00000000080494b0                _fini_array
+                0x00000000080494c0                _preinit_array
+                0x00000000080494d0                _ZN7DsCTask14getDescriptionEv
+                0x00000000080494e0                _ZN14DsCApplication9terminateEv
+                0x00000000080494f0                _ZN12DsCFcnModule6createER16DsCErrorListPoolP14DsCApplicationPKc
+                0x0000000008049500                _ZN7DsCTask16setTaskVariablesER16DsCErrorListPoolP25tagDsSKernelTaskVariables
+                0x0000000008049510                dsrtt_set_step_size
+                0x0000000008049520                _ZN8DsCTimer6createER16DsCErrorListPoolddPKc
+                0x0000000008049530                _ZN11DsCMpSender6createER16DsCErrorListPoolP14DsCApplicationPKcjjjj
+                0x0000000008049540                _ZN14DsCApplication18getDiagnosticBlockER16DsCErrorListPool
+                0x0000000008049550                _Znwj
+                0x0000000008049560                _ZN14DsCApplication12errorMessageEhjjPKcjjS1_S1_z
+                0x0000000008049570                _ZN13DsCMpReceiver7receiveEPPv
+                0x0000000008049580                _ZN7DsCTask13bindFcnModuleER16DsCErrorListPoolP12DsCFcnModule
+                0x0000000008049590                _ZN14DsCApplication25getFailureSimulationBlockER16DsCErrorListPool
+                0x00000000080495a0                main
+                0x00000000080495b0                __deregister_frame_info
+
+.iplt           0x00000000080495c0        0x0
+ *(.iplt)
+ .iplt          0x00000000080495c0        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+
+.text           0x00000000080495c0     0x2dd4
+                0x00000000080495c0                _btext = .
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ .text.unlikely
+                0x00000000080495c0        0x0 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o
+ .text.unlikely
+                0x00000000080495c0        0x0 mdladapter_mdlfunctions.o86
+ .text.unlikely
+                0x00000000080495c0        0x0 mdlCode_ap.o86
+ .text.unlikely
+                0x00000000080495c0        0x0 dssimengine_accesspoint.o86
+ .text.unlikely
+                0x00000000080495c0        0x0 dssimengine_api.o86
+ .text.unlikely
+                0x00000000080495c0        0x0 dssimengine_main.o86
+ .text.unlikely
+                0x00000000080495c0        0x0 rtosal_task.o86
+ .text.unlikely
+                0x00000000080495c0        0x0 rtosal_taskap.o86
+ .text.unlikely
+                0x00000000080495c0        0x0 rtosal_simengineap.o86
+ .text.unlikely
+                0x00000000080495c0        0x0 IOCode_Data.o86
+ .text.unlikely
+                0x00000000080495c0        0x0 rtosal_interapplcom.o86
+ .text.unlikely
+                0x00000000080495c0        0x0 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrtmdlfcn.lo86)
+ .text.unlikely
+                0x00000000080495c0        0x0 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrttf.lo86)
+ .text.unlikely
+                0x00000000080495c0        0x0 Decrypt_frame_0x100.a(Decrypt_frame_0x100.lo86)
+ .text.unlikely
+                0x00000000080495c0        0x0 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x00000000080495c0       0x31 dssimengine_main.o86
+                0x00000000080495c0                _Z32__registerApplDsCApplicationMainv
+ *fill*         0x00000000080495f1        0xf 9090
+ .text.startup  0x0000000008049600       0x13 rtosal_simengineap.o86
+                0x0000000008049600                _Z21__registerRTTMPConfigv
+ *fill*         0x0000000008049613        0xd 9090
+ .text.startup  0x0000000008049620       0x16 IOCode_Data.o86
+                0x0000000008049620                _Z31__registerResourceg_ResourceMapv
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ *fill*         0x0000000008049636        0x2 9090
+ .text          0x0000000008049638       0x91 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+                0x0000000008049640                _start
+ *fill*         0x00000000080496c9        0x3 9090
+ .text          0x00000000080496cc        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crti.o
+ *fill*         0x00000000080496cc        0x4 9090
+ .text          0x00000000080496d0      0x1a5 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o
+ .text.__x86.get_pc_thunk.dx
+                0x0000000008049875        0x4 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o
+                0x0000000008049875                __x86.get_pc_thunk.dx
+ .text.__x86.get_pc_thunk.bx
+                0x0000000008049879        0x4 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o
+                0x0000000008049879                __x86.get_pc_thunk.bx
+ *fill*         0x000000000804987d        0x3 9090
+ .text          0x0000000008049880       0x45 mdladapter_mdlfunctions.o86
+                0x0000000008049880                Decrypt_frame_0x100_APTerminateSimulation
+                0x0000000008049890                Decrypt_frame_0x100_APLastApplStateStopped
+                0x00000000080498b0                Decrypt_frame_0x100_APStopSimulation
+                0x00000000080498c0                Decrypt_frame_0x100_APPrintMessage
+ .text          0x00000000080498c5      0x2fe mdlCode_ap.o86
+                0x00000000080498c5                ap_entry_Decrypt_frame_0x100_SIDRoot_TID0
+                0x00000000080498ef                ap_exit_Decrypt_frame_0x100_SIDRoot_TID0
+                0x0000000008049901                ap_read_Decrypt_frame_0x100_DataInportSFcn_BR1_P0
+                0x0000000008049921                ap_read_Decrypt_frame_0x100_DataInportSFcn_BR1_P1
+                0x0000000008049941                ap_read_Decrypt_frame_0x100_DataInportSFcn_BR1_P2
+                0x0000000008049961                ap_read_Decrypt_frame_0x100_DataInportSFcn_BR1_P3
+                0x0000000008049981                ap_read_Decrypt_frame_0x100_DataInportSFcn_BR1_P4
+                0x00000000080499a1                ap_read_Decrypt_frame_0x100_DataInportSFcn_BR1_P5
+                0x00000000080499c1                ap_read_Decrypt_frame_0x100_DataInportSFcn_BR1_P6
+                0x00000000080499e1                ap_read_Decrypt_frame_0x100_DataInportSFcn_BR1_P7
+                0x0000000008049a01                ap_write_Decrypt_frame_0x100_DataOutportSFcn_BW1_P0
+                0x0000000008049a1f                ap_write_Decrypt_frame_0x100_DataOutportSFcn_BW1_P1
+                0x0000000008049a3d                ap_write_Decrypt_frame_0x100_DataOutportSFcn_BW1_P2
+                0x0000000008049a5b                ap_write_Decrypt_frame_0x100_DataOutportSFcn_BW1_P3
+                0x0000000008049a79                ap_write_Decrypt_frame_0x100_DataOutportSFcn_BW1_P4
+                0x0000000008049a97                ap_write_Decrypt_frame_0x100_DataOutportSFcn_BW1_P5
+                0x0000000008049ab5                ap_write_Decrypt_frame_0x100_DataOutportSFcn_BW1_P6
+                0x0000000008049ad3                ap_write_Decrypt_frame_0x100_DataOutportSFcn_BW1_P7
+                0x0000000008049af1                ap_write_Decrypt_frame_0x100_DataOutportSFcn_BW1_P8
+                0x0000000008049b0f                ap_write_Decrypt_frame_0x100_DataOutportSFcn_BW1_P9
+                0x0000000008049b2d                ap_write_Decrypt_frame_0x100_DataOutportSFcn_BW1_P10
+                0x0000000008049b4b                ap_write_Decrypt_frame_0x100_DataOutportSFcn_BW1_P11
+                0x0000000008049b69                ap_write_Decrypt_frame_0x100_DataOutportSFcn_BW1_P12
+                0x0000000008049b87                ap_write_Decrypt_frame_0x100_DataOutportSFcn_BW1_P13
+                0x0000000008049ba5                ap_write_Decrypt_frame_0x100_DataOutportSFcn_BW1_P14
+ *fill*         0x0000000008049bc3        0xd 9090
+ .text          0x0000000008049bd0      0x4a1 dssimengine_accesspoint.o86
+                0x0000000008049bd0                _Z17ApSimEngineOnInitR16DsCErrorListPool
+                0x0000000008049d40                _Z18ApSimEngineOnStartR16DsCErrorListPool
+                0x0000000008049d70                _Z17ApSimEngineOnStopR16DsCErrorListPool
+                0x0000000008049d80                _Z22ApSimEngineOnTerminateR16DsCErrorListPool
+                0x0000000008049d90                _Z19ApSimEngineOnUnloadR16DsCErrorListPool
+                0x0000000008049da0                _Z20ApSimEngineOnInitMdlR16DsCErrorListPool
+                0x0000000008049db0                _Z21ApSimEngineOnStartMdlR16DsCErrorListPool
+                0x0000000008049dc0                _Z20ApSimEngineOnStopMdlR16DsCErrorListPool
+                0x0000000008049dd0                _Z25ApSimEngineOnTerminateMdlR16DsCErrorListPool
+                0x0000000008049de0                _Z22ApSimEngineOnUnloadMdlR16DsCErrorListPool
+                0x0000000008049df0                _Z20ApSimEngineOnInitImcR16DsCErrorListPool
+                0x0000000008049ea0                _Z21ApSimEngineOnStartImcR16DsCErrorListPool
+                0x0000000008049eb0                _Z20ApSimEngineOnStopImcR16DsCErrorListPool
+                0x0000000008049ec0                _Z25ApSimEngineOnTerminateImcR16DsCErrorListPool
+                0x0000000008049ed0                _Z22ApSimEngineOnUnloadImcR16DsCErrorListPool
+                0x0000000008049ee0                _Z30ApSimEngineOnInitIoPreRtosInitR16DsCErrorListPool
+                0x0000000008049f00                _Z31ApSimEngineOnInitIoPostRtosInitR16DsCErrorListPool
+                0x0000000008049f10                _Z30ApSimEngineOnInitHwDiagnosticsR16DsCErrorListPool
+                0x0000000008049fa0                _Z20ApSimEngineOnStartIoR16DsCErrorListPool
+                0x0000000008049fc0                _Z19ApSimEngineOnStopIoR16DsCErrorListPool
+                0x0000000008049fd0                _Z24ApSimEngineOnTerminateIoR16DsCErrorListPool
+                0x0000000008049fe0                _Z21ApSimEngineOnUnloadIoR16DsCErrorListPool
+                0x0000000008049ff0                _Z21ApSimEngineOnInitRtosR16DsCErrorListPool
+                0x000000000804a020                _Z22ApSimEngineOnStartRtosR16DsCErrorListPool
+                0x000000000804a030                _Z21ApSimEngineOnStopRtosR16DsCErrorListPool
+                0x000000000804a040                _Z26ApSimEngineOnTerminateRtosR16DsCErrorListPool
+                0x000000000804a050                _Z23ApSimEngineOnUnloadRtosR16DsCErrorListPool
+                0x000000000804a060                _Z15ApSimEngineIdleR16DsCErrorListPool
+                0x000000000804a070                _Z22ApSimEngineRunTimeInitR16DsCErrorListPooli
+ *fill*         0x000000000804a071        0xf 9090
+ .text          0x000000000804a080       0x56 dssimengine_api.o86
+                0x000000000804a080                _Z25SimEngineLastApplStateGetv
+                0x000000000804a090                _Z17SimEngineApplStopv
+                0x000000000804a0b0                _Z22SimEngineApplTerminatev
+                0x000000000804a0d0                _Z16SimEngineApplGetv
+ *fill*         0x000000000804a0d6        0xa 9090
+ .text          0x000000000804a0e0      0x1a3 dssimengine_main.o86
+                0x000000000804a0e0                destroyApplication
+                0x000000000804a110                getApplicationErrorList
+                0x000000000804a120                _ZN18DsCApplicationMainD1Ev
+                0x000000000804a120                _ZN18DsCApplicationMainD2Ev
+                0x000000000804a140                _ZN18DsCApplicationMainD0Ev
+                0x000000000804a170                createApplication
+                0x000000000804a1c0                _ZN18DsCApplicationMain6onInitER16DsCErrorListPool
+                0x000000000804a1e0                _ZN18DsCApplicationMain7onStartER16DsCErrorListPool
+                0x000000000804a200                _ZN18DsCApplicationMain6onStopER16DsCErrorListPool
+                0x000000000804a220                _ZN18DsCApplicationMain11onTerminateER16DsCErrorListPool
+                0x000000000804a240                _ZN18DsCApplicationMain8onUnloadER16DsCErrorListPool
+                0x000000000804a250                _ZN18DsCApplicationMain6onIdleER16DsCErrorListPool
+                0x000000000804a260                _ZN18DsCApplicationMainC1ER16DsCErrorListPool
+                0x000000000804a260                _ZN18DsCApplicationMainC2ER16DsCErrorListPool
+ *fill*         0x000000000804a283        0xd 9090
+ .text          0x000000000804a290      0x2ea rtosal_task.o86
+                0x000000000804a290                _ZN24DsCRtosAlPeriodic_Task_3D2Ev
+                0x000000000804a290                _ZN24DsCRtosAlPeriodic_Task_3D1Ev
+                0x000000000804a2a0                _ZN24DsCRtosAlPeriodic_Task_3D0Ev
+                0x000000000804a2d0                _ZN24DsCRtosAlPeriodic_Task_35onRunER16DsCErrorListPool
+                0x000000000804a310                _ZN24DsCRtosAlPeriodic_Task_39onOverrunER16DsCErrorListPool
+                0x000000000804a3a0                _ZN24DsCRtosAlPeriodic_Task_3C1ER16DsCErrorListPoolP14DsCApplicationPKcjjjjjjjP7DsCTaskj
+                0x000000000804a3a0                _ZN24DsCRtosAlPeriodic_Task_3C2ER16DsCErrorListPoolP14DsCApplicationPKcjjjjjjjP7DsCTaskj
+                0x000000000804a3f0                _ZN24DsCRtosAlPeriodic_Task_36createER16DsCErrorListPoolP14DsCApplicationPKcjjjjjjjP7DsCTaskj
+                0x000000000804a470                _Z37RtosAlDefaultDeadlineViolationHandlerR16DsCErrorListPoolP7DsCTask
+                0x000000000804a4e0                _Z20RtosAlHandleOverrunsP7DsCTaski
+ *fill*         0x000000000804a57a        0x6 9090
+ .text          0x000000000804a580       0x78 rtosal_taskap.o86
+                0x000000000804a580                RtosAlTask_02_TaskEntry
+                0x000000000804a590                RtosAlTask_02_TaskExit
+ *fill*         0x000000000804a5f8        0x8 9090
+ .text          0x000000000804a600      0x1f4 rtosal_simengineap.o86
+                0x000000000804a600                _Z12RtosAlOnInitR16DsCErrorListPool
+                0x000000000804a6b0                _Z13RtosAlOnStartR16DsCErrorListPool
+ .text          0x000000000804a7f4        0x0 IOCode_Data.o86
+ .text          0x000000000804a7f4        0x0 mdlcfg_interapplcom.o86
+ *fill*         0x000000000804a7f4        0xc 9090
+ .text          0x000000000804a800      0xb73 rtosal_interapplcom.o86
+                0x000000000804a800                _ZN13DsCSendBuffer16CreateSendBufferER16DsCErrorListPooljjjPKcj
+                0x000000000804a850                _ZN13DsCSendBufferC2EP11DsCMpSenderjj
+                0x000000000804a850                _ZN13DsCSendBufferC1EP11DsCMpSenderjj
+                0x000000000804a870                _ZN13DsCSendBuffer12WriteFloat64EjPdj
+                0x000000000804a8e0                _ZN13DsCSendBuffer12WriteFloat32EjPfj
+                0x000000000804a950                _ZN13DsCSendBuffer10WriteInt32EjPij
+                0x000000000804a9c0                _ZN13DsCSendBuffer11WriteUInt32EjPjj
+                0x000000000804aa30                _ZN13DsCSendBuffer10WriteInt16EjPsj
+                0x000000000804aaa0                _ZN13DsCSendBuffer11WriteUInt16EjPtj
+                0x000000000804ab10                _ZN13DsCSendBuffer9WriteInt8EjPcj
+                0x000000000804ab80                _ZN13DsCSendBuffer10WriteUInt8EjPhj
+                0x000000000804abf0                _ZN13DsCSendBuffer9WriteBoolEjPhj
+                0x000000000804ac60                _ZN13DsCSendBuffer5ResetEv
+                0x000000000804ac70                _ZN13DsCSendBuffer18SendIfBufferFilledEv
+                0x000000000804ac90                _ZN22DsCCommunicationBundle12OnReadAccessEv
+                0x000000000804ada0                _ZN22DsCCommunicationBundle11ReadFloat64EjPdjj
+                0x000000000804ae10                _ZN22DsCCommunicationBundle10ReadUInt32EjPjjj
+                0x000000000804ae80                _ZN22DsCCommunicationBundle10ReadUInt16EjPtjj
+                0x000000000804aef0                _ZN22DsCCommunicationBundle8ReadBoolEjPhjj
+                0x000000000804af60                _ZN22DsCCommunicationBundle9ReadInt16EjPsjj
+                0x000000000804afd0                _ZN22DsCCommunicationBundle8ReadInt8EjPcjj
+                0x000000000804b040                _ZN22DsCCommunicationBundle9ReadUInt8EjPhjj
+                0x000000000804b0b0                _ZN22DsCCommunicationBundle11ReadFloat32EjPfjj
+                0x000000000804b120                _ZN22DsCCommunicationBundle9ReadInt32EjPijj
+                0x000000000804b190                _ZN22DsCCommunicationBundle5ResetEv
+                0x000000000804b1a0                _ZN22DsCCommunicationBundle25CreateCommunicationBundleENS_8ProtocolEj
+                0x000000000804b280                _ZN22DsCCommunicationBundleC1ENS_8ProtocolEj
+                0x000000000804b280                _ZN22DsCCommunicationBundleC2ENS_8ProtocolEj
+                0x000000000804b330                _ZN22DsCCommunicationBundle19CreateReceiveBufferER16DsCErrorListPooljjjPKcj
+ *fill*         0x000000000804b373        0xd 9090
+ .text          0x000000000804b380      0x1a4 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrtmdlfcn.lo86)
+                0x000000000804b380                Decrypt_frame_0x100_DSRTInitMdl
+                0x000000000804b3d0                Decrypt_frame_0x100_DSRTStartMdl
+                0x000000000804b450                Decrypt_frame_0x100_DSRTStopMdl
+                0x000000000804b4a0                Decrypt_frame_0x100_DSRTCheckForErrorStatus
+                0x000000000804b4e0                Decrypt_frame_0x100_DSRTCheckForSimulationStopCondition
+ *fill*         0x000000000804b524        0xc 9090
+ .text          0x000000000804b530       0x15 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrttf.lo86)
+                0x000000000804b530                Decrypt_frame_0x100_DSRTMdlOutputs0
+                0x000000000804b540                Decrypt_frame_0x100_DSRTMdlUpdate0
+ *fill*         0x000000000804b545        0xb 9090
+ .text          0x000000000804b550      0x681 Decrypt_frame_0x100.a(Decrypt_frame_0x100.lo86)
+                0x000000000804b550                rt_roundd_snf
+                0x000000000804b5e0                Decrypt_frame_0x100_output
+                0x000000000804bb50                Decrypt_frame_0x100_update
+                0x000000000804bb60                Decrypt_frame_0x100_initialize
+                0x000000000804bbd0                Decrypt_frame_0x100_terminate
+ .text          0x000000000804bbd1       0x13 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrtvdf.lo86)
+                0x000000000804bbdd                Decrypt_frame_0x100_rti_init_trc_pointers
+ .text          0x000000000804bbe4        0xb C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib\libm_fastpow.a(w_pow.o)
+                0x000000000804bbe4                pow
+ *fill*         0x000000000804bbef        0x1 9090
+ .text          0x000000000804bbf0      0x75d C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib\libm_fastpow.a(e_pow.o)
+                0x000000000804bbf0                __ieee754_pow
+ *fill*         0x000000000804c34d        0x3 9090
+ .text          0x000000000804c350       0x43 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o
+ *fill*         0x000000000804c393        0x1 9090
+ .text          0x000000000804c394        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crtn.o
+ *(.gnu.warning)
+
+.fini           0x000000000804c394        0x8
+ *(SORT(.fini))
+ .fini          0x000000000804c394        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crti.o
+                0x000000000804c394                _fini
+ .fini          0x000000000804c394        0x5 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o
+ .fini          0x000000000804c399        0x3 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x000000000804c3a0      0x568
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x000000000804c3a0       0x6d dssimengine_accesspoint.o86
+ *fill*         0x000000000804c40d       0x13 
+ .rodata        0x000000000804c420       0x60 dssimengine_accesspoint.o86
+ .rodata._ZTS18DsCApplicationMain
+                0x000000000804c480       0x15 dssimengine_main.o86
+                0x000000000804c480                _ZTS18DsCApplicationMain
+ *fill*         0x000000000804c495        0x3 
+ .rodata._ZTI18DsCApplicationMain
+                0x000000000804c498        0xc dssimengine_main.o86
+                0x000000000804c498                _ZTI18DsCApplicationMain
+ .rodata._ZTV18DsCApplicationMain
+                0x000000000804c4a4       0x28 dssimengine_main.o86
+                0x000000000804c4a4                _ZTV18DsCApplicationMain
+ .rodata.str1.1
+                0x000000000804c4cc       0x25 dssimengine_main.o86
+ .rodata.str1.1
+                0x000000000804c4f1       0x29 rtosal_task.o86
+ *fill*         0x000000000804c51a        0x2 
+ .rodata.str1.4
+                0x000000000804c51c       0xc6 rtosal_task.o86
+ *fill*         0x000000000804c5e2       0x1e 
+ .rodata        0x000000000804c600       0x46 rtosal_task.o86
+ *fill*         0x000000000804c646        0x2 
+ .rodata._ZTS24DsCRtosAlPeriodic_Task_3
+                0x000000000804c648       0x1b rtosal_task.o86
+                0x000000000804c648                _ZTS24DsCRtosAlPeriodic_Task_3
+ *fill*         0x000000000804c663        0x1 
+ .rodata._ZTI24DsCRtosAlPeriodic_Task_3
+                0x000000000804c664        0xc rtosal_task.o86
+                0x000000000804c664                _ZTI24DsCRtosAlPeriodic_Task_3
+ .rodata._ZTV24DsCRtosAlPeriodic_Task_3
+                0x000000000804c670       0x18 rtosal_task.o86
+                0x000000000804c670                _ZTV24DsCRtosAlPeriodic_Task_3
+ .rodata.cst4   0x000000000804c688        0x4 rtosal_taskap.o86
+ *fill*         0x000000000804c68c        0x4 
+ .rodata.cst8   0x000000000804c690        0x8 rtosal_taskap.o86
+ .rodata.str1.4
+                0x000000000804c698       0x62 rtosal_simengineap.o86
+ .rodata.str1.1
+                0x000000000804c6fa       0x36 rtosal_simengineap.o86
+ .rodata        0x000000000804c730        0xe rtosal_simengineap.o86
+ *fill*         0x000000000804c73e        0x2 
+ .rodata.cst8   0x000000000804c740        0x8 rtosal_simengineap.o86
+ .rodata.str1.1
+                0x000000000804c748        0xe IOCode_Data.o86
+ .rodata.str1.1
+                0x000000000804c756       0x14 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrtmdlfcn.lo86)
+ *fill*         0x000000000804c76a        0x2 
+ .rodata.str1.4
+                0x000000000804c76c       0x34 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrtmdlfcn.lo86)
+                                         0x32 (size before relaxing)
+ .rodata        0x000000000804c7a0        0x4 Decrypt_frame_0x100.a(Decrypt_frame_0x100.lo86)
+                0x000000000804c7a0                Decrypt_frame_0x100_M
+ *fill*         0x000000000804c7a4        0x4 
+ .rodata.cst8   0x000000000804c7a8       0x50 Decrypt_frame_0x100.a(Decrypt_frame_0x100.lo86)
+ *fill*         0x000000000804c7f8        0x8 
+ .rodata.cst16  0x000000000804c800       0x20 Decrypt_frame_0x100.a(Decrypt_frame_0x100.lo86)
+ .rodata        0x000000000804c820       0x30 C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib\libm_fastpow.a(e_pow.o)
+ .rodata.cst4   0x000000000804c850       0x28 C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib\libm_fastpow.a(e_pow.o)
+ .rodata.cst8   0x000000000804c878       0x90 C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib\libm_fastpow.a(e_pow.o)
+
+.rodata1
+ *(.rodata1)
+
+.sdata2
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+
+.sbss2
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+
+.eh_frame_hdr   0x000000000804c908      0x42c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000804c908      0x42c mdladapter_mdlfunctions.o86
+
+.eh_frame       0x000000000804cd34     0x1834
+ *(.eh_frame)
+ .eh_frame      0x000000000804cd34       0x3c C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000804cd70        0x0 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o
+ .eh_frame      0x000000000804cd70       0x54 mdladapter_mdlfunctions.o86
+                                         0x6c (size before relaxing)
+ .eh_frame      0x000000000804cdc4      0x3a0 mdlCode_ap.o86
+                                        0x3b8 (size before relaxing)
+ .eh_frame      0x000000000804d164      0x388 dssimengine_accesspoint.o86
+                                        0x3a0 (size before relaxing)
+ .eh_frame      0x000000000804d4ec       0x60 dssimengine_api.o86
+                                         0x78 (size before relaxing)
+ .eh_frame      0x000000000804d54c      0x1a8 dssimengine_main.o86
+                                        0x1c0 (size before relaxing)
+ .eh_frame      0x000000000804d6f4      0x260 rtosal_task.o86
+                                        0x298 (size before relaxing)
+ .eh_frame      0x000000000804d954       0x30 rtosal_taskap.o86
+                                         0x48 (size before relaxing)
+ .eh_frame      0x000000000804d984      0x138 rtosal_simengineap.o86
+                                        0x150 (size before relaxing)
+ .eh_frame      0x000000000804dabc       0x20 IOCode_Data.o86
+                                         0x38 (size before relaxing)
+ .eh_frame      0x000000000804dadc      0x848 rtosal_interapplcom.o86
+                                        0x880 (size before relaxing)
+ .eh_frame      0x000000000804e324      0x128 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrtmdlfcn.lo86)
+                                        0x140 (size before relaxing)
+ .eh_frame      0x000000000804e44c       0x28 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrttf.lo86)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000804e474       0xc8 Decrypt_frame_0x100.a(Decrypt_frame_0x100.lo86)
+                                         0xe0 (size before relaxing)
+ .eh_frame      0x000000000804e53c       0x28 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrtvdf.lo86)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000804e564        0x4 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o
+
+.gcc_except_table
+                0x000000000804e568       0x32
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table
+                0x000000000804e568       0x10 dssimengine_main.o86
+ .gcc_except_table
+                0x000000000804e578       0x10 rtosal_task.o86
+ .gcc_except_table
+                0x000000000804e588       0x12 rtosal_interapplcom.o86
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000804e59a                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x000000000804f59a                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x000000000804f59a        0x0
+                0x000000000804f59a                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x000000000804f59a                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x000000000804f59a        0x0
+                0x000000000804f59a                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x000000000804f59a                PROVIDE (__init_array_end, .)
+
+.fini_array     0x000000000804f59a        0x0
+                0x000000000804f59a                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x000000000804f59a                PROVIDE (__fini_array_end, .)
+
+.ctors          0x000000000804f59c       0x18
+ *crtbegin.o(.ctors)
+ .ctors         0x000000000804f59c        0x4 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ .ctors         0x000000000804f5a0        0x8 dssimengine_main.o86
+ .ctors         0x000000000804f5a8        0x4 rtosal_simengineap.o86
+ .ctors         0x000000000804f5ac        0x4 IOCode_Data.o86
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000000804f5b0        0x4 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o
+
+.dtors          0x000000000804f5b4        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x000000000804f5b4        0x4 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000000804f5b8        0x4 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o
+                0x000000000804f5b8                __DTOR_END__
+
+.jcr            0x000000000804f5bc        0x4
+ *(.jcr)
+ .jcr           0x000000000804f5bc        0x0 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o
+ .jcr           0x000000000804f5bc        0x4 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x000000000804f5c0       0xe8
+ *(.dynamic)
+ .dynamic       0x000000000804f5c0       0xe8 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+                0x000000000804f5c0                _DYNAMIC
+                0x000000000804f6a8                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.data           0x000000000804f6c0       0xa4
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000804f6c0        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+ .data          0x000000000804f6c0        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crti.o
+ .data          0x000000000804f6c0        0x0 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o
+ .data.rel.local
+                0x000000000804f6c0        0x4 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o
+                0x000000000804f6c0                __dso_handle
+ .data          0x000000000804f6c4        0x0 mdladapter_mdlfunctions.o86
+ .data          0x000000000804f6c4        0x0 mdlCode_ap.o86
+ .data          0x000000000804f6c4        0x1 dssimengine_accesspoint.o86
+                0x000000000804f6c4                isFirstSimulation
+ .data          0x000000000804f6c5        0x0 dssimengine_api.o86
+ *fill*         0x000000000804f6c5       0x1b 
+ .data          0x000000000804f6e0       0x34 dssimengine_main.o86
+                0x000000000804f6e0                ApplInfoDsCApplicationMain
+                0x000000000804f708                DsFwIfVersion
+                0x000000000804f70c                DsApplIfVersion
+                0x000000000804f710                SimEngineLastApplState
+ .data          0x000000000804f714        0x0 rtosal_task.o86
+ .data          0x000000000804f714        0x0 rtosal_taskap.o86
+ *fill*         0x000000000804f714        0x4 
+ .data          0x000000000804f718       0x20 rtosal_simengineap.o86
+                0x000000000804f718                ScalingFactor
+                0x000000000804f720                ScaledTimeInterval
+                0x000000000804f728                g_dsrtt_comm_enabled
+ *fill*         0x000000000804f738        0x8 
+ .data          0x000000000804f740       0x24 IOCode_Data.o86
+                0x000000000804f740                g_ResourceMap
+ .data          0x000000000804f764        0x0 mdlcfg_interapplcom.o86
+ .data          0x000000000804f764        0x0 rtosal_interapplcom.o86
+ .data          0x000000000804f764        0x0 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrtmdlfcn.lo86)
+ .data          0x000000000804f764        0x0 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrttf.lo86)
+ .data          0x000000000804f764        0x0 Decrypt_frame_0x100.a(Decrypt_frame_0x100.lo86)
+ .data          0x000000000804f764        0x0 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrtvdf.lo86)
+ .data          0x000000000804f764        0x0 C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib\libm_fastpow.a(w_pow.o)
+ .data          0x000000000804f764        0x0 C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib\libm_fastpow.a(e_pow.o)
+ .data          0x000000000804f764        0x0 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o
+ .data          0x000000000804f764        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crtn.o
+
+.tm_clone_table
+                0x000000000804f764        0x0
+ .tm_clone_table
+                0x000000000804f764        0x0 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o
+ .tm_clone_table
+                0x000000000804f764        0x0 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o
+
+.data1
+ *(.data1)
+
+.got            0x000000000804f764       0xfc
+ *(.got.plt)
+ .got.plt       0x000000000804f764       0xe4 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+                0x000000000804f764                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x000000000804f848        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+ *(.got)
+ .got           0x000000000804f848       0x18 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+ *(.igot)
+
+.sdata
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+                0x000000000804f860                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x000000000804f860                . = .
+                0x000000000804f860                __bss_start = .
+
+.sbss
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ *(.scommon)
+
+.bss            0x000000000804f860      0x2fc
+ *(.dynbss)
+ .dynbss        0x000000000804f860       0x4c C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+                0x000000000804f860                errno
+                0x000000000804f864                _ZTI7DsCTask
+                0x000000000804f870                _ZTI14DsCApplication
+                0x000000000804f880                _ZTVN10__cxxabiv120__si_class_type_infoE
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000804f8ac        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o
+ .bss           0x000000000804f8ac        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crti.o
+ .bss           0x000000000804f8ac       0x20 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o
+ .bss           0x000000000804f8cc        0x0 mdladapter_mdlfunctions.o86
+ .bss           0x000000000804f8cc        0x0 mdlCode_ap.o86
+ .bss           0x000000000804f8cc       0x30 dssimengine_accesspoint.o86
+                0x000000000804f8cc                xilApiEesPortTrigger
+                0x000000000804f8d0                xilApiEesPortFlags
+                0x000000000804f8d4                pXilApiEesPortErrorSwitching
+                0x000000000804f8d8                pXilApiEesPortErrorActivated
+                0x000000000804f8dc                pXilApiEesPortActiveErrorSet
+                0x000000000804f8e0                pFailureSimulationRelaySwitching
+                0x000000000804f8e4                pFailureSimulationSequenceCount
+                0x000000000804f8e8                pFailureSimulationFailureActivated
+                0x000000000804f8ec                pFailureSimulationFailureConfigured
+                0x000000000804f8f0                pFailureSimulationClientConnected
+                0x000000000804f8f4                pFuseRestoreRequest
+                0x000000000804f8f8                pFuseActualStatus
+ .bss           0x000000000804f8fc        0x0 dssimengine_api.o86
+ .bss           0x000000000804f8fc        0x8 dssimengine_main.o86
+                0x000000000804f8fc                _ZN18DsCApplicationMain11s_pInstanceE
+                0x000000000804f900                ErrorList
+ *fill*         0x000000000804f904        0x4 
+ .bss           0x000000000804f908       0x1c rtosal_task.o86
+                0x000000000804f908                StepCounter_Periodic_Task_3
+                0x000000000804f910                RtosAlTaskSimTime_Periodic_Task_3
+                0x000000000804f918                pRtosAlTimer_Periodic_Task_3
+                0x000000000804f91c                pRtosAlPeriodic_Task_3
+                0x000000000804f920                _ZN24DsCRtosAlPeriodic_Task_311m_pInstanceE
+ .bss           0x000000000804f924        0x0 rtosal_taskap.o86
+ *fill*         0x000000000804f924       0x1c 
+ .bss           0x000000000804f940       0x48 rtosal_simengineap.o86
+                0x000000000804f940                Periodic_Task_3Vars
+                0x000000000804f940                Periodic_Task_3Vars_OvnCounter
+                0x000000000804f944                Periodic_Task_3Vars_TurnaroundTime
+                0x000000000804f94c                Periodic_Task_3Vars_Calls
+                0x000000000804f954                Periodic_Task_3Vars_QueueCounter
+                0x000000000804f958                Periodic_Task_3Vars_AbsoluteTime
+ .bss           0x000000000804f988        0x4 IOCode_Data.o86
+                0x000000000804f988                decrypt_frame_0x100_fcnModule_SIDRoot_TID0
+ *fill*         0x000000000804f98c       0x14 
+ .bss           0x000000000804f9a0       0x80 mdlcfg_interapplcom.o86
+                0x000000000804f9a0                pDsSendBuffer
+                0x000000000804f9a4                pDsComBundle
+                0x000000000804f9c0                bufElemOffsets_1
+                0x000000000804fa00                bufElemOffsets
+ .bss           0x000000000804fa20        0x0 rtosal_interapplcom.o86
+ .bss           0x000000000804fa20        0x4 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrtmdlfcn.lo86)
+                0x000000000804fa20                DSRTStopSimulation
+ .bss           0x000000000804fa24        0x0 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrttf.lo86)
+ *fill*         0x000000000804fa24       0x1c 
+ .bss           0x000000000804fa40      0x118 Decrypt_frame_0x100.a(Decrypt_frame_0x100.lo86)
+                0x000000000804fa40                Decrypt_frame_0x100_M_
+                0x000000000804fa60                Decrypt_frame_0x100_B
+ .bss           0x000000000804fb58        0x4 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrtvdf.lo86)
+                0x000000000804fb58                p_0_Decrypt_frame_0x100_real_T_0
+ .bss           0x000000000804fb5c        0x0 C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib\libm_fastpow.a(w_pow.o)
+ .bss           0x000000000804fb5c        0x0 C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib\libm_fastpow.a(e_pow.o)
+ .bss           0x000000000804fb5c        0x0 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o
+ .bss           0x000000000804fb5c        0x0 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crtn.o
+ *(COMMON)
+                0x000000000804fb5c                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000804fb5c                . = ALIGN (0x4)
+                0x000000000804fb5c                . = SEGMENT_START ("ldata-segment", .)
+                0x000000000804fb5c                . = ALIGN (0x4)
+                0x000000000804fb5c                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x000000000804fb5c                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x35
+ *(.comment)
+ .comment       0x0000000000000000       0x11 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 mdladapter_mdlfunctions.o86
+ .comment       0x0000000000000011       0x12 mdlCode_ap.o86
+ .comment       0x0000000000000011       0x12 dssimengine_accesspoint.o86
+ .comment       0x0000000000000011       0x12 dssimengine_api.o86
+ .comment       0x0000000000000011       0x12 dssimengine_main.o86
+ .comment       0x0000000000000011       0x12 rtosal_task.o86
+ .comment       0x0000000000000011       0x12 rtosal_taskap.o86
+ .comment       0x0000000000000011       0x12 rtosal_simengineap.o86
+ .comment       0x0000000000000011       0x12 IOCode_Data.o86
+ .comment       0x0000000000000011       0x12 mdlcfg_interapplcom.o86
+ .comment       0x0000000000000011       0x12 rtosal_interapplcom.o86
+ .comment       0x0000000000000011       0x12 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrtmdlfcn.lo86)
+ .comment       0x0000000000000011       0x12 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrttf.lo86)
+ .comment       0x0000000000000011       0x12 Decrypt_frame_0x100.a(Decrypt_frame_0x100.lo86)
+ .comment       0x0000000000000011       0x12 Decrypt_frame_0x100.a(Decrypt_frame_0x100_dsrtvdf.lo86)
+ .comment       0x0000000000000011       0x12 C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib\libm_fastpow.a(w_pow.o)
+ .comment       0x0000000000000023       0x12 C:\Program Files\dSPACE RCPHIL 2018-A\SCALEXIO\Lib\libm_fastpow.a(e_pow.o)
+ .comment       0x0000000000000035       0x12 c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(Decrypt_frame_0x100.x86 elf32-i386)

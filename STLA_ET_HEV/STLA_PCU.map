@@ -1,7 +1,7 @@
 <*GNU-Linker-generated-mapfile*> 
 generated for DSx86_32 platform 
 collect2 version 5.2.0
-C:/ProgramData/dSPACE/071346ea-bffa-4465-9551-2e48edf35320/Compiler/QNX650_520/host/win32/x86/usr/bin/i486-pc-nto-qnx6.5.0-ld.exe -plugin c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\INCA\AppData\Local\Temp\ccZ6RZox.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/opt/qnx650/target/qnx6/ --eh-frame-hdr --build-id=md5 -Y P,/opt/qnx650/target/qnx6//lib -Qy -m i386nto --dynamic-linker /usr/lib/ldqnx.so.2 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crti.o c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o -Lc:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0 -Lc:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/gcc/5.2.0 -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/usr/lib -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/opt/lib -rpath-link C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/gcc/5.2.0:C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib:C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/usr/lib:C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/opt/lib -v --unresolved-symbols=ignore-all -lstdc++ -lm -lgcc -lc -Bstatic -lc -lgcc c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crtn.o
+C:/ProgramData/dSPACE/071346ea-bffa-4465-9551-2e48edf35320/Compiler/QNX650_520/host/win32/x86/usr/bin/i486-pc-nto-qnx6.5.0-ld.exe -plugin c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\INCA\AppData\Local\Temp\ccCs3nlC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/opt/qnx650/target/qnx6/ --eh-frame-hdr --build-id=md5 -Y P,/opt/qnx650/target/qnx6//lib -Qy -m i386nto --dynamic-linker /usr/lib/ldqnx.so.2 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crti.o c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o -Lc:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0 -Lc:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/gcc/5.2.0 -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/usr/lib -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/opt/lib -rpath-link C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/gcc/5.2.0:C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib:C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/usr/lib:C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/opt/lib -v --unresolved-symbols=ignore-all -lstdc++ -lm -lgcc -lc -Bstatic -lc -lgcc c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crtn.o
 GNU ld (GNU Binutils) 2.25.1
 Archive member included to satisfy reference by file (symbol)
 
@@ -2229,26 +2229,25 @@ LOAD C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_
 .rodata         0x0000000008381b60     0x26c8
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.str1.4
-                0x0000000008381b60       0x5d dssimengine_accesspoint.o86
- *fill*         0x0000000008381bbd        0x3 
+                0x0000000008381b60       0x58 dssimengine_accesspoint.o86
  .rodata._ZTS18DsCApplicationMain
-                0x0000000008381bc0       0x15 dssimengine_main.o86
-                0x0000000008381bc0                _ZTS18DsCApplicationMain
- *fill*         0x0000000008381bd5        0x3 
+                0x0000000008381bb8       0x15 dssimengine_main.o86
+                0x0000000008381bb8                _ZTS18DsCApplicationMain
+ *fill*         0x0000000008381bcd        0x3 
  .rodata._ZTI18DsCApplicationMain
-                0x0000000008381bd8        0xc dssimengine_main.o86
-                0x0000000008381bd8                _ZTI18DsCApplicationMain
+                0x0000000008381bd0        0xc dssimengine_main.o86
+                0x0000000008381bd0                _ZTI18DsCApplicationMain
  .rodata._ZTV18DsCApplicationMain
-                0x0000000008381be4       0x28 dssimengine_main.o86
-                0x0000000008381be4                _ZTV18DsCApplicationMain
+                0x0000000008381bdc       0x28 dssimengine_main.o86
+                0x0000000008381bdc                _ZTV18DsCApplicationMain
  .rodata.str1.1
-                0x0000000008381c0c       0x25 dssimengine_main.o86
+                0x0000000008381c04       0x25 dssimengine_main.o86
  .rodata.str1.1
-                0x0000000008381c31       0x1e rtosal_task.o86
- *fill*         0x0000000008381c4f        0x1 
+                0x0000000008381c29       0x1e rtosal_task.o86
+ *fill*         0x0000000008381c47        0x1 
  .rodata.str1.4
-                0x0000000008381c50       0xc6 rtosal_task.o86
- *fill*         0x0000000008381d16        0xa 
+                0x0000000008381c48       0xc6 rtosal_task.o86
+ *fill*         0x0000000008381d0e       0x12 
  .rodata        0x0000000008381d20       0x46 rtosal_task.o86
  *fill*         0x0000000008381d66        0x2 
  .rodata._ZTS24DsCRtosAlPeriodic_Task_3

@@ -1,7 +1,7 @@
 <*GNU-Linker-generated-mapfile*> 
 generated for DSx86_32 platform 
 collect2 version 5.2.0
-C:/ProgramData/dSPACE/071346ea-bffa-4465-9551-2e48edf35320/Compiler/QNX650_520/host/win32/x86/usr/bin/i486-pc-nto-qnx6.5.0-ld.exe -plugin c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\INCA\AppData\Local\Temp\ccdq6eDJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/opt/qnx650/target/qnx6/ --eh-frame-hdr --build-id=md5 -Y P,/opt/qnx650/target/qnx6//lib -Qy -m i386nto --dynamic-linker /usr/lib/ldqnx.so.2 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crti.o c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o -Lc:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0 -Lc:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/gcc/5.2.0 -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/usr/lib -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/opt/lib -rpath-link C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/gcc/5.2.0:C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib:C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/usr/lib:C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/opt/lib -v --unresolved-symbols=ignore-all -lstdc++ -lm -lgcc -lc -Bstatic -lc -lgcc c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crtn.o
+C:/ProgramData/dSPACE/071346ea-bffa-4465-9551-2e48edf35320/Compiler/QNX650_520/host/win32/x86/usr/bin/i486-pc-nto-qnx6.5.0-ld.exe -plugin c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\INCA\AppData\Local\Temp\ccBpIbXQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/opt/qnx650/target/qnx6/ --eh-frame-hdr --build-id=md5 -Y P,/opt/qnx650/target/qnx6//lib -Qy -m i386nto --dynamic-linker /usr/lib/ldqnx.so.2 C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crt1.o C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crti.o c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtbegin.o -Lc:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0 -Lc:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/gcc/5.2.0 -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/usr/lib -L C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/opt/lib -rpath-link C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/gcc/5.2.0:C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib:C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/usr/lib:C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/opt/lib -v --unresolved-symbols=ignore-all -lstdc++ -lm -lgcc -lc -Bstatic -lc -lgcc c:/programdata/dspace/071346ea-bffa-4465-9551-2e48edf35320/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/i486-pc-nto-qnx6.5.0/5.2.0/crtend.o C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_520\target\qnx6/x86/lib/crtn.o
 GNU ld (GNU Binutils) 2.25.1
 Archive member included to satisfy reference by file (symbol)
 
@@ -5915,13 +5915,14 @@ LOAD C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_
                 0x000000000836b528                rtP_Ts
                 0x000000000836b530                rtP_T_transmission_init
                 0x000000000836b540                rtP_T_em_vec
-                0x000000000836b958                rtP_R_line_pump_mot
-                0x000000000836b960                rtP_R_drum_mot
-                0x000000000836b968                rtP_R_cooling_pump_mot
-                0x000000000836b970                rtP_R_cooling_pilot_valve_solenoid
-                0x000000000836b978                rtP_R_clu2_valve_solenoid
-                0x000000000836b980                rtP_R_clu1_valve_solenoid
-                0x000000000836b988                rtP_R_clu0_valve_solenoid
+                0x000000000836b958                rtP_Swap_Solenoids_on_HIL9
+                0x000000000836b960                rtP_R_line_pump_mot
+                0x000000000836b968                rtP_R_drum_mot
+                0x000000000836b970                rtP_R_cooling_pump_mot
+                0x000000000836b978                rtP_R_cooling_pilot_valve_solenoid
+                0x000000000836b980                rtP_R_clu2_valve_solenoid
+                0x000000000836b988                rtP_R_clu1_valve_solenoid
+                0x000000000836b990                rtP_R_clu0_valve_solenoid
                 0x000000000836b9a0                rtP_P_trac_mot_cooling_M1
                 0x000000000836b9e0                rtP_P_loss_em_matr_noNaN
                 0x00000000083a0120                rtP_P_eng_coolant_M2
@@ -7105,7 +7106,7 @@ LOAD C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_
                 0x0000000008427c64                hISOTP_PROT_CHAN_A
                 0x0000000008427c70                STLA_ET_HEV_TimingBrdg
  *fill*         0x0000000008427d44        0x4 
- .bss           0x0000000008427d48       0x70 STLA_ET_HEV.a(STLA_ET_HEV_data.lo86)
+ .bss           0x0000000008427d48       0x68 STLA_ET_HEV.a(STLA_ET_HEV_data.lo86)
                 0x0000000008427d48                rtP_mcu_b_selVar_C
                 0x0000000008427d49                rtP_Flag_Generic_OVRD_OPcan
                 0x0000000008427d4a                rtP_Flag_Generic_OVRD_OPact
@@ -7126,8 +7127,7 @@ LOAD C:\ProgramData\dSPACE\071346ea-bffa-4465-9551-2e48edf35320\Compiler\QNX650_
                 0x0000000008427d98                rtP_en_clu2Press_bypass
                 0x0000000008427da0                rtP_en_clu1Press_bypass
                 0x0000000008427da8                rtP_en_clu0Press_bypass
-                0x0000000008427db0                rtP_Swap_Solenoids_on_HIL9
- *fill*         0x0000000008427db8        0x8 
+ *fill*         0x0000000008427db0       0x10 
  .bss           0x0000000008427dc0     0x22c0 STLA_ET_HEV.a(STLA_ET_HEV_dsmpb_bd.lo86)
                 0x0000000008427dc0                Bus_STLA_ET_HEV_FunctionCallSubsystem_Outport_Block1_Port2
                 0x0000000008427dd0                Bus_STLA_ET_HEV_FunctionCallSubsystem_Outport_Block1_Port3

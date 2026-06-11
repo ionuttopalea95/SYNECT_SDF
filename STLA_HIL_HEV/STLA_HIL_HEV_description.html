@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .toggle-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #0056b3;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .toggle-button:hover {
+            background-color: #003f7f;
+        }
+        h1 {
+            color: #0056b3;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 16px;
+            color: #333;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        p {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .model-bsc p {
+            margin-bottom: 5px;
+        }
+        .model-bsc .property {
+            margin-left: 20px;
+            font-style: italic;
+            color: #666;
+            word-break: break-all;
+            overflow-wrap: break-word;
+        }
+        .accordion {
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .accordion:hover {
+            background-color: #e8e8e8;
+        }
+        .accordion::after {
+            content: '\25BC'; /* Unicode character for down arrow */
+            font-size: 12px;
+            color: #333;
+            transition: transform 0.3s ease;
+        }
+        .accordion.active::after {
+            transform: rotate(-180deg);
+        }
+        .accordion-content {
+            display: none;
+            padding: 0 18px;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        ul.tree, ul.tree ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        ul.tree ul {
+            margin-left: 20px;
+        }
+        .tree li {
+            cursor: pointer;
+            position: relative;
+        }
+        .tree li::before {
+            content: '\25B6'; /* Unicode character for right arrow */
+            display: inline-block;
+            margin-right: 6px;
+            transform: rotate(0deg);
+            transition: transform 0.3s;
+        }
+        .tree li.active::before {
+            transform: rotate(90deg);
+        }
+        .tree li.no-children::before {
+            content: ''; /* Remove arrow if no children */
+        }
+        .tree ul {
+            display: none;
+        }
+        .tree li.active > ul {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="toggle-button" onclick="toggleAll()">Expand/Collapse All</button>
+        <p>Project: DT2_HIL</p>
+        <p>Application: STLA_HIL_HEV</p>
+        <p>Build date: 06/05/2026 17:45:07</p>
+
+        <h1 class="accordion">Project description</h1>
+        <div class="accordion-content">
+            
+        </div>
+
+        <h1 class="accordion">Application description</h1>
+        <div class="accordion-content">
+            
+        </div>
+
+        <h1 class="accordion">Models</h1>
+        <div class="accordion-content">
+            <div class='model-bsc'><h3>STLA_MECHANICAL</h3><p>Path:</p><p class='property'>C:\svn\branch\DELTA_branch\04_HiL_Development\Simulation\HEV\P2F2_J3U\Hil_dependency\Ref\STLA_MECHANICAL.slx</p></div><div class='model-bsc'><h3>STLA_HIL_HEV</h3><p>Path:</p><p class='property'>C:\svn\branch\DELTA_branch\04_HiL_Development\Simulation\HEV\P2F2_J3U\STLA_HIL_HEV.slx</p></div><div class='model-bsc'><h3>HEV_SA_GSET4_eDCT_HIL_v1_0_TCM_P2F2</h3><p>Path:</p><p class='property'>C:\svn\branch\DELTA_branch\04_HiL_Development\Simulation\HEV\P2F2_J3U\Hil_dependency\Ref\P2_F2_HEV_SA_J3U\HEV_SA_GSET4_eDCT_HIL_v1_0_TCM_P2F2.sic</p></div>
+        </div>
+
+        <h1 class="accordion">Application hierarchy</h1>
+        <div class="accordion-content">
+          <ul class="tree">
+            <li>STLA_HIL_HEV<ul><li>ProcessingUnitApplication_1<ul><li>STLA_MECHANICAL<ul><li>STLA_MECHANICAL</li></li></ul><li>STLA_HIL_HEV<ul><li>STLA_HIL_HEV</li><li>HEV_SA_GSET4_eDCT_HIL_v1_0_TCM_P2F2</li></li></ul></li></ul></li></ul>
+          </ul>
+        </div>
+    </div>
+
+    <script>
+        function toggleAll() {
+            const accordions = document.querySelectorAll('.accordion');
+            const contents = document.querySelectorAll('.accordion-content');
+            const expandAll = Array.from(contents).some(content => content.style.display === 'none' || content.style.display === '');
+
+            accordions.forEach((accordion, index) => {
+                accordion.classList.toggle('active', expandAll);
+                contents[index].style.display = expandAll ? 'block' : 'none';
+            });
+        }
+
+        document.querySelectorAll('.accordion').forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('active');
+                var content = item.nextElementSibling;
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        });
+
+        document.querySelectorAll('.tree li').forEach(item => {
+            item.addEventListener('click', (event) => {
+                if (item.querySelector('ul')) {
+                    item.classList.toggle('active');
+                }
+                event.stopPropagation(); // Prevent toggling parent elements
+            });
+        });
+
+        document.querySelectorAll('.tree li').forEach(item => {
+            if (!item.querySelector('ul')) {
+                item.classList.add('no-children');
+            }
+        });
+    </script>
+</body>
+</html>

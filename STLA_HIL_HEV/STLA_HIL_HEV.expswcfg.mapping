@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PhysicalAccesses xmlns:bar="http://www.dspace.com/xml/BAR_IO_Mapping_Description/1.0.0" xmlns:altova="http://www.altova.com/xml-schema-extensions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.dspace.com/xml/BAR_IO_Mapping_Description/1.0.0" SchemaVersion="1.0" xmlns="http://www.dspace.com/xml/BAR_IO_Mapping_Description/1.x">
+  <ToolInfo dSPACERLSVersion="2024-B" Creator="ConfigurationDesk" CreatorVersion="25.1" />
+  <PhysicalAccess name="CAN (1)">
+    <BusAccessRequests>
+      <BusAccessRequest id="STLA_HIL_HEV\CAN1_V3\Inspection\CAN_HS1\01552_18_03707_V8.2.1_CAN_HS1_NEAR1.1_eDCT_TCU_MHEV___DIAG_ONLY 1" />
+      <BusAccessRequest id="STLA_HIL_HEV\CAN1_V3\Simulated ECUs\CAN_HS1\01552_18_03707_V8.2.1_CAN_HS1_NEAR1.1_eDCT_TCU_MHEV___DIAG_ONLY 1" />
+    </BusAccessRequests>
+  </PhysicalAccess>
+  <PhysicalAccess name="CAN (2)">
+    <BusAccessRequests>
+      <BusAccessRequest id="STLA_HIL_HEV\CAN2_V3\Inspection\CAN_FD8\01552_18_03707_V8.2.1_CAN_FD8_NEAR1.1_eDCT_TCU_MHEV___XCP_TB_ONLY 1" />
+      <BusAccessRequest id="STLA_HIL_HEV\CAN2_V3\Simulated ECUs\CAN_FD8\01552_18_03707_V8.2.1_CAN_FD8_NEAR1.1_eDCT_TCU_MHEV___XCP_TB_ONLY 1" />
+    </BusAccessRequests>
+  </PhysicalAccess>
+  <PhysicalAccess name="CAN (3)">
+    <BusAccessRequests>
+      <BusAccessRequest id="STLA_HIL_HEV\CAN3_Vx\Inspection\CAN_Priv\DT2Gen3_CAN_Private_V4.0 1" />
+      <BusAccessRequest id="STLA_HIL_HEV\CAN3_Vx\Simulated ECUs\CAN_Priv\DT2Gen3_CAN_Private_V4.0 1" />
+    </BusAccessRequests>
+  </PhysicalAccess>
+  <PhysicalAccess name="CAN (4)">
+    <BusAccessRequests>
+      <BusAccessRequest id="STLA_HIL_HEV\CAN4_V3\Inspection\CAN_FD10\NEA_R1_1_R1_2_BV_J3U_Applicative_v3.1" />
+      <BusAccessRequest id="STLA_HIL_HEV\CAN4_V3\Simulated ECUs\CAN_FD10\NEA_R1_1_R1_2_BV_J3U_Applicative_v3.1" />
+      <BusAccessRequest id="STLA_HIL_HEV\CAN4_V3\Manipulation\CAN_FD10\NEA_R1_1_R1_2_BV_J3U_Applicative_v3.1" />
+    </BusAccessRequests>
+  </PhysicalAccess>
+  <PhysicalAccess name="CAN (5)">
+    <BusAccessRequests>
+      <BusAccessRequest id="STLA_HIL_HEV\CAN5_V1\Inspection\01552_19_05361_V6.14_CAN_FD10_NEAR1_eDCT_MCU_PHEV_GEN2\01552_19_05361_V6.14_CAN_FD10_NEAR1_eDCT_MCU_PHEV_GEN2" />
+      <BusAccessRequest id="STLA_HIL_HEV\CAN5_V1\Simulated ECUs\01552_19_05361_V6.14_CAN_FD10_NEAR1_eDCT_MCU_PHEV_GEN2\01552_19_05361_V6.14_CAN_FD10_NEAR1_eDCT_MCU_PHEV_GEN2" />
+      <BusAccessRequest id="STLA_HIL_HEV\CAN5_V2\Inspection\01552_19_05361_V6.14_CAN_FD10_AEE2010_R3_eDCT_MCU_PHEV_GEN2\01552_19_05361_V6.14_CAN_FD10_AEE2010_R3_eDCT_MCU_PHEV_GEN2" />
+      <BusAccessRequest id="STLA_HIL_HEV\CAN5_V2\Simulated ECUs\01552_19_05361_V6.14_CAN_FD10_AEE2010_R3_eDCT_MCU_PHEV_GEN2\01552_19_05361_V6.14_CAN_FD10_AEE2010_R3_eDCT_MCU_PHEV_GEN2" />
+      <BusAccessRequest id="STLA_HIL_HEV\CAN5_V3\Inspection\01552_19_05361_V6.14_CAN_FD10_NEAR1.1_eDCT_MCU_PHEV_GEN2\01552_19_05361_V6.14_CAN_FD10_NEAR1.1_eDCT_MCU_PHEV_GEN2" />
+      <BusAccessRequest id="STLA_HIL_HEV\CAN5_V3\Simulated ECUs\01552_19_05361_V6.14_CAN_FD10_NEAR1.1_eDCT_MCU_PHEV_GEN2\01552_19_05361_V6.14_CAN_FD10_NEAR1.1_eDCT_MCU_PHEV_GEN2" />
+    </BusAccessRequests>
+  </PhysicalAccess>
+</PhysicalAccesses>

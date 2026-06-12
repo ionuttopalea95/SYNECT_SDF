@@ -9,13 +9,13 @@ RTP=1
 RTP=2
 
 [1]
-ID=ac791366-0996-4944-a902-541463e7f4a7
+ID=e503a96b-c096-4d1a-a61a-8b80472312ac
 Type=DSRTPC
 ServiceID=1
 TraceFile=STLA_MECHANICAL.trc
 
 [2]
-ID=9f1e26da-7599-4fc9-b554-98c7f5b27f22
+ID=73afcd19-0d6d-4ff1-8f4e-ea4419f2d032
 Type=DSRTPC
 ServiceID=2
 TraceFile=STLA_HIL_HEV.trc
